@@ -4,6 +4,7 @@ from pydantic import BaseModel
 
 
 class SandwichBase(BaseModel):
+    name = str
     sandwich_name: str
     price: float
 
